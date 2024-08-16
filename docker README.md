@@ -10,11 +10,6 @@ To build the Docker image, navigate to the directory containing the Dockerfile a
 ```bash
 docker build -t your_image_name:your_tag .
 
-
-
-#### d. **Running the Docker Container**
-
-```markdown
 ## Running the Docker Container
 
 To start a container from the built image, use the following command:
