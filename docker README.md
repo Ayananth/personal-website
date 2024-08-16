@@ -9,10 +9,11 @@ To build the Docker image, navigate to the directory containing the Dockerfile a
 
 ```bash
 docker build -t your_image_name:your_tag .
-
+```
 ## Running the Docker Container
 
 To start a container from the built image, use the following command:
 
 ```bash
-docker run -d -p 8000:8000 your_image_name:your_tag
+docker run -p 8000:8000 your_image_name:your_tag
+
